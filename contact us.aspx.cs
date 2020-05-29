@@ -27,7 +27,7 @@ namespace transx
                 mail.IsBodyHtml = true;
                 SmtpClient cl = new SmtpClient("smtp.gmail.com", 587);
                 cl.EnableSsl = true;
-                cl.Credentials = new System.Net.NetworkCredential("yadavabhishek123210@gmail.com", "sobsaixwztdlwhbo");
+                cl.Credentials = new System.Net.NetworkCredential("yadavabhishek123210@gmail.com", "mypassword");
                 cl.Send(mail);
                 Label1.ForeColor = System.Drawing.Color.Black;
                 Label1.Text = "thanks for contacting us";
